@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #3b9bb8;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 40px; 
+}
+.header img {
+    margin-right: 5px;
+}
+.content {
+    display: flex;
+}
+.series-container {
+    width: 55%; 
+}
+.detalle-container {
+    width: 30%; 
+    margin-left: 20px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #cccccc;
+    background-color: #e3e3e3;
+}
+.table td:first-child {
+    font-weight: bold; 
+}
+
